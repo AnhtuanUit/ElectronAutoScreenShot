@@ -1,0 +1,25 @@
+{
+  "name": "electron-quick-start",
+  "version": "1.0.0",
+  "description": "A minimal Electron application",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "package": "asar pack AutoScreenshot-darwin-x64/AutoScreenshot.app/Contents/Resources/app AutoScreenshot-darwin-x64/AutoScreenshot.app/Contents/Resources/app.asar",
+    "build": "electron-packager . autoScreenshot && cp Icon.icns AutoScreenshot-darwin-x64/AutoScreenshot.app/Contents/Resources/electron.icns"
+  },
+  "repository": "https://github.com/electron/electron-quick-start",
+  "keywords": [
+    "Electron",
+    "quick",
+    "start",
+    "tutorial",
+    "demo"
+  ],
+  "author": "GitHub",
+  "license": "CC0-1.0",
+  "devDependencies": {
+    "electron-packager": "^8.5.2",
+    "electron-prebuilt": "^1.4.13"
+  }
+}

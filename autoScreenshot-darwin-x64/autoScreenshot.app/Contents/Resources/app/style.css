@@ -1,0 +1,30 @@
+
+body {
+	background: #7FB17C; 
+	color: white;
+}
+
+h1 {
+	text-align: center;
+}
+
+button {
+	display: block;
+}
+
+ul li img {
+	width: 300px;
+	height: auto;
+}
+ul li {
+	display: inline-block;
+	margin: 0 5px;
+}
+
+#listScreen {
+	list-style: none;
+}
+
+#time {
+	width: 25px;
+}
